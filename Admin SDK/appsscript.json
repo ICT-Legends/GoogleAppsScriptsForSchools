@@ -1,0 +1,40 @@
+{
+  "timeZone": "Asia/Hong_Kong",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "AdminGroupsMigration",
+      "serviceId": "groupsmigration",
+      "version": "v1"
+    }, {
+      "userSymbol": "AdminDirectory",
+      "serviceId": "admin",
+      "version": "directory_v1"
+    }, {
+      "userSymbol": "AdminReports",
+      "serviceId": "admin",
+      "version": "reports_v1"
+    }, {
+      "userSymbol": "Gmail",
+      "serviceId": "gmail",
+      "version": "v1"
+    }, {
+      "userSymbol": "AdminGroupsSettings",
+      "serviceId": "groupssettings",
+      "version": "v1"
+    }, {
+      "userSymbol": "Calendar",
+      "serviceId": "calendar",
+      "version": "v3"
+    }],
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "38"
+    }]
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
